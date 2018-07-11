@@ -1,5 +1,5 @@
-# SCSScolor-Harmony
-A SCSS starter to create palettes based on color wheel schemes.
+# SCSScolor
+A SCSS starter to create harmonic color palettes based on color wheel schemes.
 
 ## How to
 1. Open **scss/colorcalc.scss**.
