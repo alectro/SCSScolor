@@ -15,7 +15,7 @@ h1,h2,p {
 
 $h:                     200;  // Hue:         0 to 360 degrees
 $s:                     100;  // Saturation:  0 to 100 percent
-$l:                     70;   // Luminosity:  0 to 100 percent
+$l:                     70;   // Lightness:  0 to 100 percent
 $a:                     1;    // Alpha from:  0 to 1
 
 $base-color:            hsla($h, $s, $l, $a);
