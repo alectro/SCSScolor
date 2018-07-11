@@ -1,10 +1,15 @@
-////  Contants
-.shape{
-  width:                210px;
-  height:               90px;
+////  Constants
+.shape {
+  width:                200px;
+  height:               80px;
+  border-radius:        40px;
+  margin-right:         20px;
   display:              inline-block;
 }
-h1,h2,p{
+.wrapper {
+  margin-top:           30px;
+}
+h1,h2,p {
   font-family:          sans-serif;
 }
 
@@ -27,7 +32,7 @@ $TetradicRectangle:     60;   // 3 more colors
 
 
 ////  Calculations
-.base{
+.base {
   background-color:     $base-color;
 }
 

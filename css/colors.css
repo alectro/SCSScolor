@@ -1,7 +1,12 @@
 .shape {
-  width: 210px;
-  height: 90px;
+  width: 200px;
+  height: 80px;
+  border-radius: 40px;
+  margin-right: 20px;
   display: inline-block; }
+
+.wrapper {
+  margin-top: 30px; }
 
 h1, h2, p {
   font-family: sans-serif; }
