@@ -1,0 +1,91 @@
+////  Contants
+.shape{
+  width:                210px;
+  height:               90px;
+  display:              inline-block;
+}
+h1,h2,p{
+  font-family:          sans-serif;
+}
+
+////  Setup
+
+$h:                     200;  // Hue:         0 to 360 degrees
+$s:                     100;  // Saturation:  0 to 100 percent
+$l:                     70;   // Luminosity:  0 to 100 percent
+$a:                     1;    // Alpha from:  0 to 1
+
+$base-color:            hsla($h, $s, $l, $a);
+
+////  Schemes
+$Analogous:             30;   // 2 more colors
+$Complementary:         180;  // 1 more color
+$SplitComplementary:    150;  // 2 more colors
+$Triadic:               120;  // 2 more colors
+$TetradicSquare:        90;   // 3 more colors
+$TetradicRectangle:     60;   // 3 more colors
+
+
+////  Calculations
+.base{
+  background-color:     $base-color;
+}
+
+//    Complementary
+.complementary {
+  background-color:     complement($base-color);
+}
+
+//    Split Complementary
+.split-complementary-1 {
+  background-color:     adjust-hue($base-color, $SplitComplementary);
+}
+.split-complementary-2 {
+  background-color:     adjust-hue($base-color, -$SplitComplementary);
+}
+
+//    Analogous
+.analogous-1 {
+  background-color:     adjust-hue($base-color, $Analogous);
+}
+.analogous-2 {
+  background-color:     adjust-hue($base-color, -$Analogous);
+}
+
+//    Analogous
+.analogous-1 {
+  background-color:     adjust-hue($base-color, $Analogous);
+}
+.analogous-2 {
+  background-color:     adjust-hue($base-color, -$Analogous);
+}
+
+//    Triadic
+.triadic-1 {
+  background-color:     adjust-hue($base-color, $Triadic);
+}
+.triadic-2 {
+  background-color:     adjust-hue($base-color, -$Triadic);
+}
+
+//    Tetradic Square
+.tetradic-1 {
+  background-color:     adjust-hue($base-color, $TetradicSquare);
+}
+.tetradic-2 {
+  background-color:     adjust-hue($base-color, -$TetradicSquare);
+}
+.tetradic-3 {
+  background-color:     adjust-hue($base-color, -$TetradicSquare*2);
+}
+
+//    Tetradic Square
+.tetradic-rectangle-1 {
+  background-color:     adjust-hue($base-color, $TetradicRectangle);
+}
+.tetradic-rectangle-2 {
+  background-color:     adjust-hue($base-color, -$TetradicRectangle);
+}
+.tetradic-rectangle-3 {
+  background-color:     adjust-hue($base-color, -$TetradicRectangle*2);
+}
