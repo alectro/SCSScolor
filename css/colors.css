@@ -1,73 +1,55 @@
 .shape {
   width: 210px;
   height: 90px;
-  display: inline-block;
-}
+  display: inline-block; }
 
 h1, h2, p {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 .base {
-  background-color: #66ccff;
-}
+  background-color: #66ccff; }
 
 .complementary {
-  background-color: #ff9966;
-}
+  background-color: #ff9966; }
 
 .split-complementary-1 {
-  background-color: #ff6680;
-}
+  background-color: #ff6680; }
 
 .split-complementary-2 {
-  background-color: #ffe666;
-}
+  background-color: #ffe666; }
 
 .analogous-1 {
-  background-color: #6680ff;
-}
+  background-color: #6680ff; }
 
 .analogous-2 {
-  background-color: #66ffe6;
-}
+  background-color: #66ffe6; }
 
 .analogous-1 {
-  background-color: #6680ff;
-}
+  background-color: #6680ff; }
 
 .analogous-2 {
-  background-color: #66ffe6;
-}
+  background-color: #66ffe6; }
 
 .triadic-1 {
-  background-color: #ff66cc;
-}
+  background-color: #ff66cc; }
 
 .triadic-2 {
-  background-color: #ccff66;
-}
+  background-color: #ccff66; }
 
 .tetradic-1 {
-  background-color: #e666ff;
-}
+  background-color: #e666ff; }
 
 .tetradic-2 {
-  background-color: #80ff66;
-}
+  background-color: #80ff66; }
 
 .tetradic-3 {
-  background-color: #ff9966;
-}
+  background-color: #ff9966; }
 
 .tetradic-rectangle-1 {
-  background-color: #9966ff;
-}
+  background-color: #9966ff; }
 
 .tetradic-rectangle-2 {
-  background-color: #66ff99;
-}
+  background-color: #66ff99; }
 
 .tetradic-rectangle-3 {
-  background-color: #ccff66;
-}
+  background-color: #ccff66; }
