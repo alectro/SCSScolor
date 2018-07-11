@@ -1,60 +1,149 @@
 .shape {
-  width: 200px;
+  width: 190px;
   height: 80px;
-  border-radius: 40px;
-  margin-right: 20px;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .wrapper {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 h1, h2, p {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 .base {
-  background-color: #66ccff; }
+  background-color: #66ccff;
+}
 
 .complementary {
-  background-color: #ff9966; }
+  background-color: #ff9966;
+}
 
 .split-complementary-1 {
-  background-color: #ff6680; }
+  background-color: #ff6680;
+}
 
 .split-complementary-2 {
-  background-color: #ffe666; }
+  background-color: #ffe666;
+}
 
 .analogous-1 {
-  background-color: #6680ff; }
+  background-color: #6680ff;
+}
 
 .analogous-2 {
-  background-color: #66ffe6; }
+  background-color: #66ffe6;
+}
 
 .analogous-1 {
-  background-color: #6680ff; }
+  background-color: #6680ff;
+}
 
 .analogous-2 {
-  background-color: #66ffe6; }
+  background-color: #66ffe6;
+}
 
 .triadic-1 {
-  background-color: #ff66cc; }
+  background-color: #ff66cc;
+}
 
 .triadic-2 {
-  background-color: #ccff66; }
+  background-color: #ccff66;
+}
 
 .tetradic-1 {
-  background-color: #e666ff; }
+  background-color: #e666ff;
+}
 
 .tetradic-2 {
-  background-color: #80ff66; }
+  background-color: #80ff66;
+}
 
 .tetradic-3 {
-  background-color: #ff9966; }
+  background-color: #ff9966;
+}
 
 .tetradic-rectangle-1 {
-  background-color: #9966ff; }
+  background-color: #9966ff;
+}
 
 .tetradic-rectangle-2 {
-  background-color: #66ff99; }
+  background-color: #66ff99;
+}
 
 .tetradic-rectangle-3 {
-  background-color: #ccff66; }
+  background-color: #ccff66;
+}
+
+.shade-10 {
+  background-color: #5cb8e6;
+}
+
+.shade-20 {
+  background-color: #478fb3;
+}
+
+.shade-30 {
+  background-color: #478fb3;
+}
+
+.shade-40 {
+  background-color: #3d7a99;
+}
+
+.shade-50 {
+  background-color: #336680;
+}
+
+.shade-60 {
+  background-color: #295266;
+}
+
+.shade-70 {
+  background-color: #1f3d4d;
+}
+
+.shade-80 {
+  background-color: #142933;
+}
+
+.shade-90 {
+  background-color: #0a141a;
+}
+
+.tint-10 {
+  background-color: #75d1ff;
+}
+
+.tint-20 {
+  background-color: #85d6ff;
+}
+
+.tint-30 {
+  background-color: #94dbff;
+}
+
+.tint-40 {
+  background-color: #a3e0ff;
+}
+
+.tint-50 {
+  background-color: #b3e6ff;
+}
+
+.tint-60 {
+  background-color: #c2ebff;
+}
+
+.tint-70 {
+  background-color: #d1f0ff;
+}
+
+.tint-80 {
+  background-color: #e0f5ff;
+}
+
+.tint-90 {
+  background-color: #f0faff;
+}
