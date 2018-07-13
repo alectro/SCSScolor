@@ -13,137 +13,137 @@ h1, h2, p {
 }
 
 .base {
-  background-color: #66ccff;
+  background-color: #66b3ff;
 }
 
 .complementary {
-  background-color: #ff9966;
+  background-color: #ffb366;
 }
 
 .split-complementary-1 {
-  background-color: #ff6680;
+  background-color: #ff6666;
 }
 
 .split-complementary-2 {
-  background-color: #ffe666;
+  background-color: #ffff66;
 }
 
 .analogous-1 {
-  background-color: #6680ff;
+  background-color: #6666ff;
 }
 
 .analogous-2 {
-  background-color: #66ffe6;
+  background-color: #66ffff;
 }
 
 .analogous-1 {
-  background-color: #6680ff;
+  background-color: #6666ff;
 }
 
 .analogous-2 {
-  background-color: #66ffe6;
+  background-color: #66ffff;
 }
 
 .triadic-1 {
-  background-color: #ff66cc;
+  background-color: #ff66b3;
 }
 
 .triadic-2 {
-  background-color: #ccff66;
+  background-color: #b3ff66;
 }
 
 .tetradic-1 {
-  background-color: #e666ff;
+  background-color: #ff66ff;
 }
 
 .tetradic-2 {
-  background-color: #80ff66;
+  background-color: #66ff66;
 }
 
 .tetradic-3 {
-  background-color: #ff9966;
+  background-color: #ffb366;
 }
 
 .tetradic-rectangle-1 {
-  background-color: #9966ff;
+  background-color: #b366ff;
 }
 
 .tetradic-rectangle-2 {
-  background-color: #66ff99;
+  background-color: #66ffb3;
 }
 
 .tetradic-rectangle-3 {
-  background-color: #ccff66;
+  background-color: #b3ff66;
 }
 
 .shade-10 {
-  background-color: #5cb8e6;
+  background-color: #5ca1e6;
 }
 
 .shade-20 {
-  background-color: #478fb3;
+  background-color: #477db3;
 }
 
 .shade-30 {
-  background-color: #478fb3;
+  background-color: #477db3;
 }
 
 .shade-40 {
-  background-color: #3d7a99;
+  background-color: #3d6b99;
 }
 
 .shade-50 {
-  background-color: #336680;
+  background-color: #335980;
 }
 
 .shade-60 {
-  background-color: #295266;
+  background-color: #294766;
 }
 
 .shade-70 {
-  background-color: #1f3d4d;
+  background-color: #1f364d;
 }
 
 .shade-80 {
-  background-color: #142933;
+  background-color: #142433;
 }
 
 .shade-90 {
-  background-color: #0a141a;
+  background-color: #0a121a;
 }
 
 .tint-10 {
-  background-color: #75d1ff;
+  background-color: #75baff;
 }
 
 .tint-20 {
-  background-color: #85d6ff;
+  background-color: #85c2ff;
 }
 
 .tint-30 {
-  background-color: #94dbff;
+  background-color: #94c9ff;
 }
 
 .tint-40 {
-  background-color: #a3e0ff;
+  background-color: #a3d1ff;
 }
 
 .tint-50 {
-  background-color: #b3e6ff;
+  background-color: #b3d9ff;
 }
 
 .tint-60 {
-  background-color: #c2ebff;
+  background-color: #c2e0ff;
 }
 
 .tint-70 {
-  background-color: #d1f0ff;
+  background-color: #d1e8ff;
 }
 
 .tint-80 {
-  background-color: #e0f5ff;
+  background-color: #e0f0ff;
 }
 
 .tint-90 {
-  background-color: #f0faff;
+  background-color: #f0f7ff;
 }

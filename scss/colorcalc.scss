@@ -1,33 +1,5 @@
-////  Constants
-.shape {
-  width:                190px;
-  height:               80px;
-  display:              inline-block;
-}
-.wrapper {
-  margin-top:           30px;
-}
-h1,h2,p {
-  font-family:          sans-serif;
-}
-
-////  Setup
-
-$h:                     200;  // Hue:         0 to 360 degrees
-$s:                     100;  // Saturation:  0 to 100 percent
-$l:                     70;   // Lightness:  0 to 100 percent
-$a:                     1;    // Alpha from:  0 to 1
-
-$base-color:            hsla($h, $s, $l, $a);
-
-////  Schemes
-$Analogous:             30;   // 2 more colors
-$Complementary:         180;  // 1 more color
-$SplitComplementary:    150;  // 2 more colors
-$Triadic:               120;  // 2 more colors
-$TetradicSquare:        90;   // 3 more colors
-$TetradicRectangle:     60;   // 3 more colors
-
+@import                'styles';
+@import                'setup';
 
 ////  Calculations
 .base {
