@@ -27,14 +27,6 @@
   background-color:     adjust-hue($base-color, -$Analogous);
 }
 
-//    Analogous
-.analogous-1 {
-  background-color:     adjust-hue($base-color, $Analogous);
-}
-.analogous-2 {
-  background-color:     adjust-hue($base-color, -$Analogous);
-}
-
 //    Triadic
 .triadic-1 {
   background-color:     adjust-hue($base-color, $Triadic);
