@@ -1,9 +1,15 @@
 # SCSScolor
 A SCSS starter to create harmonic color palettes based on color wheel schemes.
 
+## HSLA
+Hue: 0 to 360 degrees. **0** is **Red**, **120** is **Green**, **240** is **Blue**.
+Saturation: 0 to 100 percent. **0** equals **total desaturation**, **100** is **fully saturated**.
+Lightness: 0 to 100 percent. **0** equals **Black**, **100** equals **White**.
+Alpha: 0 to 1. Fractions will output **rgba** colors while 1 will output **HEX**.
+
 ## How to
-1. Open **scss/colorcalc.scss**.
-2. Edit the values for Hue, Saturation, Lightness and Alpha in **$h**, **$s**, **$l**, **$a**.
+1. Open **scss/_setup.scss**.
+2. Edit the values for **$hue**, **$saturation**, **$lightness**, **$alpha**.
 3. Save and compile.
 
 ## Color Schemes
