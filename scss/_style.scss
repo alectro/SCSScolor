@@ -1,0 +1,24 @@
+////  Document style
+.block {
+  width:                180px;
+  height:               90px;
+  display:              table-cell;
+  //padding:              20px;
+  //margin-right:         20px;
+  //margin-bottom:        20px;
+  //border-radius:        90px;
+}
+.wrapper {
+  margin-top:           30px;
+}
+h1,h2,h3,p {
+  font-family:          sans-serif;
+}
+.wrapper p {
+  font-size:            14px;
+  text-align:           center;
+}
+.wrapper h3 {
+  font-size:            1.3em;
+  text-align:           center;
+}
