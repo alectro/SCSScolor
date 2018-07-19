@@ -9,7 +9,95 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/colorcalc.scss": {
+	"\/css\/colors.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/colors-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/index.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/scss\/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_setup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_setup.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/colorcalc.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -21,23 +109,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/css\/colors.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/colors-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
 		}
 	},
 "hooks": [

@@ -1,0 +1,13 @@
+// Original mixin: SASS mixin for accessible color contrast by David Halford https://codepen.io/davidhalford/pen/wlDxL
+
+@mixin contrast($n) {
+  $color-brightness: round((red($n) * 299) + (green($n) * 587) + (blue($n) * 114) / 1000);
+  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + (blue(#ffffff) * 114) / 1000);
+
+  @if abs($color-brightness) < ($light-color/2.8){
+    color: mix(White, $n, 80%);
+  }
+  @else {
+    color: mix(Black, $n, 80%);
+  }
+}

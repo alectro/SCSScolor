@@ -1,115 +1,182 @@
-@import                'styles';
+@import                'style';
 @import                'setup';
+@import                'functions';
+
+$cComplementary:        complement($base-color);
+$cSplitComplementary-1: adjust-hue($base-color, $SplitComplementary);
+$cSplitComplementary-2: adjust-hue($base-color, ($SplitComplementary * -1));
+$cAnalogous-1:          adjust-hue($base-color, $Analogous);
+$cAnalogous-2:          adjust-hue($base-color, ($Analogous * -1));
+$cTriadic-1:            adjust-hue($base-color, $Triadic);
+$cTriadic-2:            adjust-hue($base-color, (-$Triadic * -1));
+$cTetradic-1:           adjust-hue($base-color, $TetradicSquare);
+$cTetradic-2:           adjust-hue($base-color, ($TetradicSquare * -1));
+$cTetradic-3:           adjust-hue($base-color, (($TetradicSquare*2) * -1));
+$cTetradicRectangle-1:  adjust-hue($base-color, $TetradicRectangle);
+$cTetradicRectangle-2:  adjust-hue($base-color, ($TetradicRectangle * -1));
+$cTetradicRectangle-3:  adjust-hue($base-color, (($TetradicRectangle*2) * -1));
+$cTint-10:              mix(White, $base-color, 10%);
+$cTint-20:              mix(White, $base-color, 20%);
+$cTint-30:              mix(White, $base-color, 30%);
+$cTint-40:              mix(White, $base-color, 40%);
+$cTint-50:              mix(White, $base-color, 50%);
+$cTint-60:              mix(White, $base-color, 60%);
+$cTint-70:              mix(White, $base-color, 70%);
+$cTint-80:              mix(White, $base-color, 80%);
+$cTint-90:              mix(White, $base-color, 90%);
+$cShade-10:             mix(Black, $base-color, 10%);
+$cShade-20:             mix(Black, $base-color, 20%);
+$cShade-30:             mix(Black, $base-color, 30%);
+$cShade-40:             mix(Black, $base-color, 40%);
+$cShade-50:             mix(Black, $base-color, 50%);
+$cShade-60:             mix(Black, $base-color, 60%);
+$cShade-70:             mix(Black, $base-color, 70%);
+$cShade-80:             mix(Black, $base-color, 80%);
+$cShade-90:             mix(Black, $base-color, 90%);
+
 
 ////  Calculations
 .base {
   background-color:     $base-color;
+  @include              contrast($base-color);
 }
 
 //    Complementary
 .complementary {
-  background-color:     complement($base-color);
+  background-color:     $cComplementary;
+  @include              contrast($cComplementary);
 }
 
 //    Split Complementary
 .split-complementary-1 {
-  background-color:     adjust-hue($base-color, $SplitComplementary);
+  background-color:     $cSplitComplementary-1;
+  @include              contrast($cSplitComplementary-1);
 }
 .split-complementary-2 {
-  background-color:     adjust-hue($base-color, -$SplitComplementary);
+  background-color:     $cSplitComplementary-2;
+  @include              contrast($cSplitComplementary-2);
 }
 
 //    Analogous
 .analogous-1 {
-  background-color:     adjust-hue($base-color, $Analogous);
+  background-color:     $cAnalogous-1;
+  @include              contrast($cAnalogous-1);
 }
+
 .analogous-2 {
-  background-color:     adjust-hue($base-color, -$Analogous);
+  background-color:     $cAnalogous-2;
+  @include              contrast($cAnalogous-2);
 }
 
 //    Triadic
 .triadic-1 {
-  background-color:     adjust-hue($base-color, $Triadic);
+  background-color:     $cTriadic-1;
+  @include              contrast($cTriadic-1);
 }
 .triadic-2 {
-  background-color:     adjust-hue($base-color, -$Triadic);
+  background-color:     $cTriadic-2;
+  @include              contrast($cTriadic-2);
 }
 
 //    Tetradic Square
 .tetradic-1 {
-  background-color:     adjust-hue($base-color, $TetradicSquare);
+  background-color:     $cTetradic-1;
+  @include              contrast($cTetradic-1);
 }
 .tetradic-2 {
-  background-color:     adjust-hue($base-color, -$TetradicSquare);
+  background-color:     $cTetradic-2;
+  @include              contrast($cTetradic-2);
 }
 .tetradic-3 {
-  background-color:     adjust-hue($base-color, -$TetradicSquare*2);
+  background-color:     $cTetradic-3;
+  @include              contrast($cTetradic-3);
 }
 
 //    Tetradic Square
 .tetradic-rectangle-1 {
-  background-color:     adjust-hue($base-color, $TetradicRectangle);
+  background-color:     $cTetradicRectangle-1;
+  @include              contrast($cTetradicRectangle-1);
 }
 .tetradic-rectangle-2 {
-  background-color:     adjust-hue($base-color, -$TetradicRectangle);
+  background-color:     $cTetradicRectangle-2;
+  @include              contrast($cTetradicRectangle-2);
 }
 .tetradic-rectangle-3 {
-  background-color:     adjust-hue($base-color, -$TetradicRectangle*2);
+  background-color:     $cTetradicRectangle-3;
+  @include              contrast($cTetradicRectangle-3);
 }
 
 
 .shade-10 {
   background-color:     mix(Black, $base-color, 10%);
+  @include              contrast($cShade-10);
 }
 .shade-20 {
   background-color:     mix(Black, $base-color, 30%);
+  @include              contrast($cShade-20);
 }
 .shade-30 {
   background-color:     mix(Black, $base-color, 30%);
+  @include              contrast($cShade-30);
 }
 .shade-40 {
   background-color:     mix(Black, $base-color, 40%);
+  @include              contrast($cShade-40);
 }
 .shade-50 {
   background-color:     mix(Black, $base-color, 50%);
+  @include              contrast($cShade-50);
 }
 .shade-60 {
   background-color:     mix(Black, $base-color, 60%);
+  @include              contrast($cShade-60);
 }
 .shade-70 {
   background-color:     mix(Black, $base-color, 70%);
+  @include              contrast($cShade-70);
 }
 .shade-80 {
   background-color:     mix(Black, $base-color, 80%);
+  @include              contrast($cShade-80);
 }
 .shade-90 {
-background-color:       mix(Black, $base-color, 90%);
+  background-color:     mix(Black, $base-color, 90%);
+  @include              contrast($cShade-90);
 }
 
 .tint-10 {
   background-color:     mix(White, $base-color, 10%);
+  @include              contrast($cTint-10);
 }
 .tint-20 {
   background-color:     mix(White, $base-color, 20%);
+  @include              contrast($cTint-20);
 }
 .tint-30 {
   background-color:     mix(White, $base-color, 30%);
+  @include              contrast($cTint-30);
 }
 .tint-40 {
   background-color:     mix(White, $base-color, 40%);
+  @include              contrast($cTint-40);
 }
 .tint-50 {
   background-color:     mix(White, $base-color, 50%);
+  @include              contrast($cTint-50);
 }
 .tint-60 {
   background-color:     mix(White, $base-color, 60%);
+  @include              contrast($cTint-60);
 }
 .tint-70 {
   background-color:     mix(White, $base-color, 70%);
+  @include              contrast($cTint-70);
 }
 .tint-80 {
   background-color:     mix(White, $base-color, 80%);
+  @include              contrast($cTint-80);
 }
 .tint-90 {
   background-color:     mix(White, $base-color, 90%);
+  @include              contrast($cTint-90);
 }
