@@ -1,13 +1,12 @@
 ////  Setup
 
 //  HSLA
-$hue:                   200;  // Hue:         0 to 360 degrees. 0 is Red, 120 is Green, 240 is Blue.
-$saturation:            90;  // Saturation:  0 to 100 percent. 0 Desaturated, 100 Saturated.
-$lightness:             50;   // Lightness:   0 to 100 percent. 0 equals Black, 100 equals White.
+$hue:                   320;  // Hue:         0 to 360 degrees. 0 is Red, 120 is Green, 240 is Blue.
+$saturation:            100;  // Saturation:  0 to 100 percent. 0 Desaturated, 100 Saturated.
+$lightness:             70;   // Lightness:   0 to 100 percent. 0 equals Black, 100 equals White.
 $alpha:                 1;    // Alpha from:  0 to 1. Fractions will output rgba colors while 1 will output HEX.
 
 $base-color:            hsla($hue, $saturation, $lightness, $alpha);
-
 
 ////  Schemes
 $Complementary:         180;  // 1 more color
