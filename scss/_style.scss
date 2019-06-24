@@ -1,24 +1,43 @@
 ////  Document style
+body {
+  padding: 20px;
+  width: 100vw;
+}
 .block {
-  width:                180px;
-  height:               90px;
-  display:              table-cell;
-  //padding:              20px;
-  //margin-right:         20px;
-  //margin-bottom:        20px;
-  //border-radius:        90px;
+    width: 160px;
+    height: 90px;
+    display: table-cell;
+    padding:              20px;
+    margin-right:         20px;
+    margin-bottom:        20px;
+    border-radius:        90px;
+}
+.square {
+  width: 90px;
+  height: 90px;
 }
 .wrapper {
-  margin-top:           30px;
+    margin-top: 90px;
 }
-h1,h2,h3,p {
-  font-family:          sans-serif;
+
+h1,
+h2,
+h3,
+p {
+    font-family: sans-serif;
+    font-weight: 100;
 }
+
 .wrapper p {
-  font-size:            14px;
-  text-align:           center;
+    font-size: .85em;
+    text-align: center;
 }
+
 .wrapper h3 {
-  font-size:            1.3em;
-  text-align:           center;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 0;
+}
+a {
+  color: $base-color;
 }
